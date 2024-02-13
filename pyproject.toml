@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "immutable"
+version = "0.1.0"
+description = "Makes normally mutable Python objects immutable"
+authors = ["David Naughton"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
